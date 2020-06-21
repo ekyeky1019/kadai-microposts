@@ -1,6 +1,6 @@
-@extends("layouts.app")
+@extends('layouts.app')
 
-@section("content")
+@section('content')
     {{-- ユーザ一覧 --}}
-    @include("users.users")
+    @include('users.users')
 @endsection
